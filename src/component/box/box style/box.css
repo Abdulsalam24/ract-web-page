@@ -1,0 +1,42 @@
+.box-container .box .item {
+  margin: 20px 0;
+}
+.box-container .box .item .text {
+  padding: 15px 0;
+}
+.box-container .box .item .text p {
+  margin: 15px 0;
+}
+.box-container .box .item .text h3 {
+  color: #112E66;
+}
+.box-container .box .item .text .btn button {
+  background-color: transparent;
+  border: none;
+  color: #112E66;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .box-container .box {
+    justify-content: space-between;
+  }
+  .box-container .box .item {
+    margin: 20px 0;
+    width: 32%;
+  }
+  .box-container .box .item .text {
+    padding: 15px 0;
+  }
+  .box-container .box .item .text p {
+    margin: 15px 0;
+  }
+  .box-container .box .item .text h3 {
+    color: #112E66;
+  }
+  .box-container .box .item .text .btn button {
+    background-color: transparent;
+    border: none;
+    color: #112E66;
+  }
+}/*# sourceMappingURL=box.css.map */

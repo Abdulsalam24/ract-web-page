@@ -1,0 +1,54 @@
+.prefooter {
+  margin: 30px auto;
+}
+.prefooter .number {
+  width: 100%;
+  margin: 20px auto 40px;
+  text-align: center;
+}
+.prefooter .number h3 {
+  font-size: 4em;
+  margin: 40px 0;
+}
+.prefooter form .login {
+  margin: 10px 0;
+}
+.prefooter form .login h4 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.prefooter form .login input, .prefooter form .login textarea {
+  width: 100%;
+  padding: 5px;
+}
+.prefooter form .btn {
+  text-align: center;
+}
+.prefooter form .btn button {
+  padding: 10px 15px;
+  background-color: #112E66;
+}
+
+@media screen and (min-width: 750px) {
+  .prefooter form {
+    margin: 30px 0;
+  }
+  .prefooter form .login {
+    margin: 10px 0;
+  }
+  .prefooter form .login h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  .prefooter form .login input, .prefooter form .login textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  .prefooter form .btn {
+    text-align: center;
+  }
+  .prefooter form .btn button {
+    padding: 10px 15px;
+    background-color: #112E66;
+  }
+}/*# sourceMappingURL=prefooter.css.map */

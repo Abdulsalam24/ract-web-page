@@ -1,0 +1,54 @@
+.box-container{
+    .box{
+        .item{
+            margin: 20px 0;
+            .text{
+                padding: 15px 0;
+                p{
+                    margin: 15px 0;
+                }
+                h3{
+                    color: #112E66;
+                }
+                .btn{
+                    button{
+                        background-color: transparent;
+                        border: none;
+                        color: #112E66;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 750px){
+    .box-container{
+        .box{
+            justify-content: space-between;
+            .item{
+                margin: 20px 0;
+                width: 32%;
+
+                .text{
+                    padding: 15px 0;
+                    p{
+                        margin: 15px 0;
+                    }
+                    h3{
+                        color: #112E66;
+                    }
+                    .btn{
+                        button{
+                            background-color: transparent;
+                            border: none;
+                            color: #112E66;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
